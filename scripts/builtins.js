@@ -13,7 +13,7 @@ export const builtins = Module.builtinModules
   .sort()
 
 let builtinsObj = null
-
+console.log('yoyo')
 const convertToObj = () => builtins.reduce((obj, builtin) => {
   obj[builtin] = true
   return obj
